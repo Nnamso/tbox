@@ -1,0 +1,39 @@
+<?php
+	$lang["social_admin_setting_top_to_bottom"] = "Top to bottom";
+	$lang["social_admin_setting_bottom_to_top"] = "Bottom to top";
+	$lang["social_admin_setting_left_to_right"] = "Left to right";
+	$lang["social_admin_setting_right_to_left"] = "Right to left";
+	$lang["social_admin_setting_appear"] = "Appear";
+	$lang["social_admin_setting_css_animation_title"] = "CSS Animation";
+	$lang["social_admin_setting_css_animation_eg"] = "Select type of animation if you want this element to be animated when it enters into the browsers viewport. Note: Works only in modern browsers.";
+	$lang["social_admin_setting_extra_class_name_title"] = "Extra class name";
+	$lang["social_admin_setting_extra_class_name_eg"] = "If you wish to style particular content element differently, then use this field to add a class name and then refer to it in your css file.";
+	$lang["social_admin_setting_content"] = "Content";
+	$lang["social_admin_setting_title_validate"] = "Title must be at least 2 to 200 characters.";
+	$lang["social_admin_setting_content_validate"] = "Content is required";
+	$lang["social_admin_setting_add_error_msg"] = "Cannot add social html";
+	$lang["social_admin_setting_edit_error_msg"] = "Cannot edit social html";
+	$lang["social_admin_setting_edit_not_found_error_msg"] = "social html not found";
+	$lang["social_admin_setting_facebook_title"] = "Facebook";
+	$lang["social_admin_setting_icon_title"] = "Icon";
+	$lang["social_admin_setting_add_icon_title"] = "Add Icon";
+	$lang["social_admin_setting_facebook_link_title"] = "Facebook Link";
+	$lang["social_admin_setting_publish_title"] = "Publish";
+	$lang["social_admin_setting_twitter_title"] = "Twitter";
+	$lang["social_admin_setting_twitter_link_title"] = "Twitter Link";
+	$lang["social_admin_setting_google_title"] = "Google";
+	$lang["social_admin_setting_google_link_title"] = "Google Link";
+	$lang["social_admin_setting_instagram_title"] = "Instagram";
+	$lang["social_admin_setting_instagram_link_title"] = "Instagram Link";
+	$lang["social_admin_setting_pinterest_title"] = "Pinterest";
+	$lang["social_admin_setting_pinterest_link_title"] = "Pinterest Link";
+	$lang["social_admin_setting_linkedin_title"] = "Linkedin";
+	$lang["social_admin_setting_linkedin_link_title"] = "Linkedin Link";
+	$lang["social_admin_setting_add_icon_help"] = "Add icon size 24x24px or 32x32px.";
+	
+	$lang["social_list_element_title"] = "Click to choose element or add new";
+	$lang["social_list_module_name_title"] = "social Title";
+	$lang["social_list_key_title"] = "Key";
+	$lang["social_list_id_title"] = "ID";
+	$lang["social_list_option_title"] = "Option";
+?>

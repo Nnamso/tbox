@@ -1,0 +1,147 @@
+<layouts>
+	<group name="home" description="Home Page" icon="home.png">
+		<layout>
+			<name>default</name>
+			<title>Home Page</title>
+			<description>Home Page</description>
+		</layout>		
+	</group>
+	
+	<group name="components" description="Build head, footer of site" icon="home.png">
+		<layout>
+			<name>head</name>
+			<title>Build head</title>
+			<description>Build head of website</description>
+		</layout>
+		<layout>
+			<name>footer</name>
+			<title>Build footer</title>
+			<description>Build footer of website</description>
+		</layout>		
+	</group>
+	
+	<group name="categories" description="Product Categories" icon="category.png">
+		<layout>
+			<name>default</name>
+			<title>Product Categories</title>
+			<description>List all sub categories.</description>
+		</layout>		
+	</group>
+	
+	<group name="design" description="Design tool" icon="tools.png">
+		<layout>
+			<name>default</name>
+			<title>Designer Online</title>
+			<description>Layout of design tool.</description>
+		</layout>		
+	</group>
+	
+	<group name="product" description="Product detail" icon="tshirt.png">
+		<layout>
+			<name>detail</name>
+			<title>Product Detail</title>
+			<description>Product detail</description>
+		</layout>
+		
+		<layout>
+			<name>default</name>
+			<title>Product Detail</title>
+			<description>Product detail.</description>
+		</layout>
+	</group>
+	
+	<group name="idea" description="Design ideas" icon="Idea-Icon.png">
+		<layout>
+			<name>categories</name>
+			<title>List all categories</title>
+			<description>List all categories - home page design ideas</description>
+		</layout>
+		
+		<layout>
+			<name>category</name>
+			<title>Load category</title>
+			<description>Page category of design idea.</description>
+		</layout>
+	</group>
+		
+	<group name="user" description="Login, register, Order history, saved design" icon="user.png">
+		<layout>
+			<name>login</name>
+			<title>Login and forget password</title>
+			<description>Show login and forget password form</description>
+		</layout>
+		<layout>
+			<name>register</name>
+			<title>Create a account</title>
+			<description>Show create a account form</description>
+		</layout>
+
+		<layout>
+			<name>profile</name>
+			<title>Profile</title>
+			<description>Profile and change password</description>
+		</layout>
+		
+		<layout>
+			<name>order</name>
+			<title>Order history</title>
+			<description>Show list order and order detail</description>
+		</layout>
+		
+		<layout>
+			<name>design</name>
+			<title>Saved Design</title>
+			<description>Show all design of use</description>
+		</layout>
+	</group>
+	
+	<group name="blog" description="Blog category, post detail" icon="category.png">
+		<layout>
+			<name>category</name>
+			<title>Blog category</title>
+			<description>List all post of this category</description>
+		</layout>
+		<layout>
+			<name>post</name>
+			<title>Post detail</title>
+			<description>Show post detail</description>
+		</layout>		
+	</group>
+	
+	<group name="cart" description="Show cart, checkout page" icon="cart.png">
+		<layout>
+			<name>cart</name>
+			<title>Shopping cart</title>
+			<description>Show cart detail.</description>
+		</layout>
+		<layout>
+			<name>checkout</name>
+			<title>Checkout</title>
+			<description>One page checkout.</description>
+		</layout>
+	</group>
+	
+	<group name="payment" description="payment page" icon="payment.png">
+		<layout>
+			<name>confirm</name>
+			<title>Confirm payment</title>
+			<description>Show notify of payment.</description>
+		</layout>		
+	</group>
+	
+	<group name="search" description="Search product, design idea, post" icon="search.png">
+		<layout>
+			<name>all</name>
+			<title>Search page</title>
+			<description>Search product, design idea, post.</description>
+		</layout>
+	</group>
+	
+	<group name="404" description="page error 404" icon="404.png">
+		<layout>
+			<name>404</name>
+			<title>Page Not Found</title>
+			<description>Page Not Found.</description>
+		</layout>
+	</group>
+</layouts>

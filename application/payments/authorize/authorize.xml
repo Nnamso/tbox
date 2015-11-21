@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+***   type="layout-open": open new html.
+*     name="div, ul, li, a, span, a, ..." & add (class="", id="", rol="",...).
+*     EG: <field type="layout-option" name="div" class="abc"/> => <div class="abc">
+*
+***   type="layout-close": close html.
+*	  name="div, ul, li, a, span, a, ..."
+*     EG: <field type="layout-close" name="div"/> => </div>
+*
+***   type="label-tooltip": Tooltips hover on question-icon in label.  
+*	  value="language_codeigniter" -> Language.
+*     title="language_codeigniter" -> Language.
+*
+***	  type="label": Form Label
+*	  value="language_codeigniter" -> Language.
+*
+***	  type="text, file, submit, password, radio, checkbox": Form Input
+*	  placeholder="language_codeigniter" -> Language.
+*	  data-msg="language_codeigniter" -> Language(form validate).
+*
+***	  type="select": Form Select
+*	  EG: <field type="select">
+*		  		<option value="1">language_codeigniter</option>
+*         </field>
+*
+***   type="textarea": Form Textarea.
+*     placeholder="language_codeigniter" -> Language.
+*
+***	  tooltip: class="tooltips", data-toggle="tooltip", data-placement="top, right, left, bottom", title="language".
+-->
+
+
+<form>
+	<!-- form sandbox -->
+	<field type="layout-open" name="div" class="form-group"/>
+	<field type="label-tooltip" value="settings_payment_admin_form_sanbox_account" class="col-sm-2" data-toggle="tooltip" data-placement="top" title="settings_payment_admin_form_sanbox_account_title"/>
+	<field type="layout-open" name="div" class="col-sm-4"/>
+	<field name="config[sandbox]" type="select" class="form-control input-sm">
+		<option value="1">yes</option>
+		<option value="0">no</option>
+	</field>
+	<field type="layout-close" name="div"/>
+	<field type="layout-close" name="div"/>
+	<!-- end form sandbox -->
+	
+	<!-- form publish -->
+	<field type="layout-open" name="div" class="form-group"/>
+	<field type="label-tooltip" value="publish" class="col-sm-2" data-toggle="tooltip" data-placement="top" title="publish"/>
+	<field type="layout-open" name="div" class="col-sm-4"/>
+	<field name="config[publish]" type="select" class="form-control input-sm">
+		<option value="1">published</option>
+		<option value="0">unpublished</option>
+	</field>
+	<field type="layout-close" name="div"/>
+	<field type="layout-close" name="div"/>
+	<!-- end form publish -->
+
+	<!-- form user name -->
+	<field type="layout-open" name="div" class="form-group"/>
+	<field type="label" value="settings_authorize_admin_form_api_login_id" class="col-sm-2"/>
+	<field type="layout-open" name="div" class="col-sm-4"/>
+	<field name="config[api_login_id]" type="text" class="form-control input-sm validate required" data-minlength="2" data-maxlength="32" data-msg="payment_authorize_api_login_id_validate" placeholder="settings_authorize_admin_form_api_login_id_place" />
+	<field type="layout-close" name="div"/>
+	<field type="layout-close" name="div"/>
+	<!-- end form user name -->
+	
+	<!-- form password -->
+	<field type="layout-open" name="div" class="form-group"/>
+	<field type="label" value="settings_authorize_admin_form_transaction_key" class="col-sm-2" data-toggle="tooltip" data-placement="top" title="settings_authorize_admin_form_transaction_key_tooltip"/>
+	<field type="layout-open" name="div" class="col-sm-4"/>
+	<field name="config[transaction_key]" type="text" class="form-control input-sm validate required" data-minlength="2" data-maxlength="200" data-msg="payment_authorize_transaction_key_validate" placeholder="settings_authorize_key_admin_form_place" />
+	<field type="layout-close" name="div"/>
+	<field type="layout-close" name="div"/>
+	<!-- end form password -->
+</form>
+

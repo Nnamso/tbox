@@ -1,0 +1,66 @@
+fieldset{
+	border: 1px solid #ccc;
+    border-radius: 6px;
+	padding: 5px 5px 20px;
+}
+legend {
+    border: 1px solid #ccc;
+	border-width: 0px;
+    color: #007AFF;
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    padding: 0 5px;
+    width: auto;
+}
+label{
+	font-size: 13px;
+	margin-top: 3px;
+}
+.modal-body {
+    padding: 10px;
+}
+.modal-title{
+	color: #007AFF;
+}
+.col-sm-1, .col-sm-2, .col-sm-3,
+.col-sm-4, .col-sm-5, .col-sm-6,
+.col-sm-7, .col-sm-8, .col-sm-9,
+.col-sm-10, .col-sm-11, .col-sm-12{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.view_product{
+	text-align: center;
+}
+.view_product img{
+	width: 90%;
+	margin: 10px 0;
+}
+.view_vector ul{
+	list-style: none;
+    padding-left: 0px;
+	font-weight: bold;
+	font-size: 12px;
+}
+.view_vector ul li span{
+	display: block;
+    float: left;
+    width: 40%;
+}
+.clipart_thumb{
+	width: 50%;
+	margin: 5px 0;
+}
+
+.view_vector .text{
+	font-size: 17px;
+}
+
+
+
+

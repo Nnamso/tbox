@@ -1,0 +1,67 @@
+/* head */
+.module-login .dropdown-menu {
+  z-index: 10000;
+}
+.module-login {
+  text-align: right;
+}
+.module-login .dropdown {
+  background-color: #333333;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 6px 10px;
+  text-align: right;
+}
+#user_info {
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+}
+#user_info .caret {
+  border-color: #fff transparent -moz-use-text-color;
+  margin-left: 4px;
+}
+.module-login .dropdown-menu {
+  font-size: 12px;
+  text-align: left;
+  z-index: 10000;
+}
+/* banner */
+.head-banner{  
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2) inset;  
+}
+.bx-caption h1, .bx-caption h2, .bx-caption h3, .bx-caption h4, .bx-caption h5, .bx-caption h6{
+font-family: Oswald,sans-serif;
+}
+.bx-wrapper .bx-caption {
+  color: #4b5668!important;
+  font-size:16px;
+}
+.bx-caption h2, .bx-caption h1, .bx-caption h3 {
+  color: #4b5668;
+  font-size: 42px;
+  padding-bottom: 22px;
+}
+.bx-caption > ul {
+  list-style: outside none none;
+  padding: 0;
+}
+.bx-caption li {
+  line-height: 30px;
+  padding-left: 6px;
+}
+.bx-wrapper .bx-controls .bx-pager {
+  bottom: 10px; 
+  left: 10px;  
+  right: auto;
+  text-align: left;
+}
+
+/* search */
+.module-search .has-feedback {
+  margin-bottom: 0;
+  position: relative;
+}
+.module-search .has-feedback {  
+  margin-bottom: 0px;
+}

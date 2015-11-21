@@ -1,0 +1,1 @@
+<div class="row-elment col-md-12"><div class="container"><div class="row-content row"><div class="col-elment col-md-12"><div class="module-margin module-cart"><div class="module-border"><div class="module-padding"><div class="module-content"><div class="module-main">{page:cart}</div></div></div></div></div></div></div></div></div>
